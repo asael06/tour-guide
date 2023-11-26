@@ -1,0 +1,106 @@
+{
+  "tours": [
+    {
+      "id": 1,
+      "name": "Acapulco",
+      "price": 1600,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec tincidunt ligula nec sapien dignissim, a imperdiet risus mollis. Proin venenatis euismod pretium. Phasellus sed odio quis magna aliquam scelerisque a at lectus. Sed sed finibus tellus. Nunc quis mollis turpis, at suscipit quam. Nam odio lacus, iaculis eget mi ut, venenatis dignissim felis. Suspendisse hendrerit enim sit amet diam aliquam, a tincidunt lectus finibus. Morbi semper quis felis euismod faucibus. Fusce ut libero malesuada, egestas velit at, viverra lorem. Aliquam erat volutpat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nulla faucibus faucibus malesuada. Phasellus a malesuada metus. Mauris elit eros, vulputate quis condimentum ac, varius eu enim.",
+      "rate": 4.8
+    },
+    {
+      "id": 2,
+      "name": "Cancún",
+      "price": 2500,
+      "description": "Duis ullamcorper lectus eu erat lobortis tempor. Sed consectetur nunc a felis facilisis rutrum. Suspendisse aliquam sem dolor, posuere efficitur ipsum finibus id. Fusce eleifend ut nunc non semper. Morbi facilisis felis vel malesuada dapibus. Curabitur ac mi ipsum. Nulla et metus faucibus, lobortis nunc in, tincidunt ipsum. Nullam accumsan dolor suscipit, suscipit sem nec, tincidunt ante. Pellentesque eget feugiat nulla. Suspendisse potenti. Integer bibendum porta neque, sed ullamcorper risus pellentesque eu. Nulla cursus ligula eu libero sollicitudin, vitae luctus lacus bibendum.",
+      "rate": 4.0
+    },
+    {
+      "id": 3,
+      "name": "CDMX",
+      "price": 800,
+      "description": "Cras euismod gravida lobortis. Phasellus ipsum turpis, elementum sed libero in, vestibulum imperdiet ipsum. Mauris quis urna ut purus gravida tempor. Nunc sodales lectus quis dictum posuere. Duis quis efficitur dolor. Aliquam sed bibendum nulla. Praesent ultrices ligula imperdiet nulla congue accumsan.",
+      "rate": 4.5
+    },
+    {
+      "id": 4,
+      "name": "Guadalajara",
+      "price": 900,
+      "description": "Curabitur finibus sem sem, a feugiat ligula tristique nec. Donec vel gravida orci. Sed dictum posuere laoreet. Aliquam accumsan, sem eu blandit posuere, mauris ex varius magna, sit amet cursus enim ligula non libero. Quisque luctus, orci ullamcorper tempor pharetra, justo nunc congue risus, ut semper eros velit eget urna. Aenean metus justo, consectetur et lorem eu, fermentum dictum eros. Aenean eget tortor tincidunt, sollicitudin enim vel, bibendum ligula. Vivamus augue massa, ornare sed ligula ut, namerat porta lacus. Sed vel augue neque. Donec sit amet tempus nunc. Vivamus mollis feugiat diam, at pharetra odio varius a. Phasellus semper ac nulla quis rutrum. Cras in nunc elementum, lobortis massa sit amet, eleifend neque. Suspendisse porttitor metus sit amet nibh tincidunt consectetur ut id sapien. In et porta massa. Donec nec condimentum turpis.",
+      "rate": 4.3
+    },
+    {
+      "id": 5,
+      "name": "Guanajuato",
+      "price": 1300,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus consectetur posuere. Nam a mollis tortor. Ut nisi nisl, condimentum sit amet dui eget, vulputate porttitor nisi. Sed ac ullamcorper lectus. Vestibulum eget auctor eros. Nunc sed mauris tellus. Ut sodales, urna non tincidunt vestibulum, lectus dolor pulvinar augue, sit amet egestas diam augue at ligula. Suspendisse iaculis est ac turpis porta, in pharetra odio mattis. Praesent efficitur faucibus metus, a pharetra felis namerat id.",
+      "rate": 4.1
+    },
+    {
+      "id": 6,
+      "name": "León",
+      "price": 750,
+      "description": "Nunc id ex nunc. In facilisis ut est at vulputate. Morbi ultricies quam erat, id scelerisque turpis gravida quis. Pellentesque eu neque accumsan orci aliquam vulputate eget ut odio. Morbi lacinia malesuada quam aliquam consequat. In eget consequat tortor. Aliquam sollicitudin vitae ex nec tempus. Fusce vel pellentesque velit. Sed nulla magna, hendrerit vitae justo quis, aliquet fringilla orci. Proin auctor fermentum pulvinar. Maecenas a efficitur libero, gravida vulputate ligula.",
+      "rate": 4.2
+    },
+    {
+      "id": 7,
+      "name": "Mazatlán",
+      "price": 1800,
+      "description": "Donec gravida luctus metus, id tincidunt risus auctor sit amet. Nulla facilisi. Fusce tempor eros quis sem auctor namerat non ac ante. Etiam sed nunc et ligula dictum dapibus. Vivamus elit dolor, ultrices nec neque eu, egestas ultrices ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet diam neque. Nulla semper consequat orci, id consectetur nisi scelerisque sed. Nunc sit amet euismod dui.",
+      "rate": 4.9
+    },
+    {
+      "id": 8,
+      "name": "Monterrey",
+      "price": 1850,
+      "description": "Fusce eget nibh ullamcorper, tempus metus vitae, imperdiet justo. Sed lacinia libero ut augue pellentesque congue. Suspendisse ornare tincidunt libero et vestibulum. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus eget ultrices velit. Suspendisse ultricies gravida velit, et maximus quam lobortis a. In cursus eros ut finibus rhoncus. Proin volutpat finibus venenatis. Curabitur at urna et purus vehicula gravida nec eu ante. Cras efficitur sollicitudin convallis. Phasellus iaculis volutpat velit, sed venenatis tellus scelerisque eu.",
+      "rate": 4.9
+    },
+    {
+      "id": 9,
+      "name": "Nayarit",
+      "price": 1150,
+      "description": "Nullam sit amet lectus sit amet tortor imperdiet ultrices. Etiam molestie hendrerit nibh at elementum. Proin maximus tempus sem vitae ullamcorper. Quisque tincidunt gravida massa, sed facilisis sem mollis id. In quam lacus, efficitur et turpis in, ultrices ullamcorper ligula. Pellentesque at rhoncus metus. Aenean id nunc neque. Fusce ullamcorper nisi leo, nec ornare magna consequat eu. In pharetra tellus justo, sit amet laoreet nulla facilisis vel. Aenean quis tellus sit amet turpis accumsan scelerisque. Suspendisse interdum vitae sem id ornare. Proin ut ipsum sagittis, mollis dolor id, iaculis urna. Etiam suscipit sed libero ac pellentesque. Sed at orci eu nisl dignissim hendrerit eu et lectus. Nunc rutrum sapien at leo dictum, in ultricies dui consequat. Morbi sed viverra turpis.",
+      "rate": 5.0
+    },
+    {
+      "id": 10,
+      "name": "San Blas",
+      "price": 950,
+      "description": "Nullam sit amet finibus erat. Nam ornare justo et risus aliquam, quis dictum dolor mollis. Quisque consectetur sit amet justo sed volutpat. Sed mattis augue metus, ut blandit tortor tempor sed. Nam luctus quis sem ut maximus. Phasellus nisi orci, scelerisque non fringilla eu, volutpat in quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed id ullamcorper arcu, at pretium justo. Suspendisse vel lorem aliquet, tristique nulla non, facilisis massa.",
+      "rate": 4.7
+    }
+  ],
+  "services": [
+    {
+      "icon": "tune",
+      "title": "Personaliza tu búsqueda",
+      "description": "Nuestro sistema único de búsqueda te permite encontrar el viaje que tú quieras para tus siguientes vacaciones"
+    },
+    {
+      "icon": "workspace_premium",
+      "title": "Amplia variedad de tours",
+      "description": "Ofrecemos una amplia variedad de tours seleccionados personalmente con destinos en todo el mundo."
+    },
+    {
+      "icon": "star",
+      "title": "Servicio de alta calidad",
+      "description": "Nuestros tour managers están calificados, capacitados y amigables para brindarle el mejor servicio."
+    },
+    {
+      "icon": "support_agent",
+      "title": "Soporte 24/7",
+      "description": "Siempre puede obtener soporte profesional de nuestro personal las 24 horas del día, los 7 días de la semana y hacer cualquier pregunta que tenga."
+    },
+    {
+      "icon": "local_fire_department",
+      "title": "Hoteles cuidadosamente seleccionados",
+      "description": "Nuestro equipo ofrece sólo la mejor selección de hoteles asequibles y de lujo a nuestros clientes."
+    },
+    {
+      "icon": "wallet",
+      "title": "Mejor precio garantizado",
+      "description": "Si encuentras tours más baratos que los nuestros, te compensaremos la diferencia."
+    }
+  ]
+}

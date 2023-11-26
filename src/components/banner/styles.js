@@ -4,12 +4,12 @@ export const Container = styled.div`
   display: flex;
   position: relative;
   align-items: center;
-  height: 350px;
+  height: 450px;
   overflow: hidden;
 
   img {
-    width: 3000px;
-    object-fit: fill;
+    width: 30000px;
+    object-fit: cover;
   }
 
   .text-container {
