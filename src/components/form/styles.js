@@ -17,8 +17,7 @@ export const Container = styled.div`
   form {
     .input-container {
       display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
+      flex-direction: column;
 
       & + * {
         margin-top: 20px;
