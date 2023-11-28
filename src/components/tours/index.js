@@ -2,11 +2,21 @@ import { Container } from "./styles";
 import { TourCard } from "../tour-card";
 import db from "../../db.json";
 import { useEffect, useState } from "react";
+import axios from "axios";
 
 export const Tours = ({ setTourSelected }) => {
   const [toursSelected, setToursSelected] = useState([]);
+  const [tours, setTours] = useState([]);
+
+  const getTours = async () => {
+    const response = await axios.get(process.env.REACT_APP_GET_TOURS);
+    setTours(response.data.data);
+    // const response = await axios.get("http://localhost:8000/tours");
+    // setTours(response.data);
+  };
 
   useEffect(() => {
+    getTours();
     const checkTours = setInterval(() => {
       const toursSelected = JSON.parse(sessionStorage.getItem("toursSelected"));
       setToursSelected(toursSelected || []);
@@ -17,7 +27,6 @@ export const Tours = ({ setTourSelected }) => {
     };
   }, []);
 
-  const { tours } = db;
   return (
     <Container>
       <h2>¿A dónde te gustaría viajar?</h2>
