@@ -3,13 +3,15 @@ import { NavLink } from "react-router-dom";
 import { Button } from "../button/button";
 import { useState } from "react";
 import { Cart } from "../cart";
+import { Icon } from "@mui/material";
 
 export const Menu = () => {
   const [showCart, setShowCart] = useState(false);
+  const [showMenu, setShowMenu] = useState(false);
 
   return (
     <Container>
-      <ul>
+      <ul className={showMenu ? "show-menu" : ""}>
         <li>
           <NavLink to="/">Home</NavLink>
         </li>
@@ -24,6 +26,7 @@ export const Menu = () => {
         </li>
       </ul>
       <div className="cart-container">
+        <Button style="menu" onClick={() => setShowMenu(!showMenu)} />
         <Button style="cart" onClick={() => setShowCart(true)} />
       </div>
       {showCart && <Cart setShowCart={setShowCart} />}

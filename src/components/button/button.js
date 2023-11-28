@@ -16,6 +16,8 @@ export const Button = ({
         return <Icon>close</Icon>;
       case "delete":
         return <Icon>delete</Icon>;
+      case "menu":
+        return <Icon>menu</Icon>;
       default:
         return;
     }

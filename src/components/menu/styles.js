@@ -56,4 +56,35 @@ export const Container = styled.nav`
       }
     }
   }
+  .cart-container {
+    .menu {
+      display: none;
+    }
+  }
+
+  @media (max-width: 640px) {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0;
+
+    .cart-container {
+      display: flex;
+      justify-content: space-between;
+
+      .menu {
+        display: block;
+      }
+    }
+
+    ul {
+      display: block;
+      height: 0;
+      overflow: hidden;
+      transition: height 0.3s ease-in;
+
+      &.show-menu {
+        height: calc(48px * 4);
+      }
+    }
+  }
 `;
