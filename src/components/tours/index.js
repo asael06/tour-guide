@@ -1,6 +1,5 @@
 import { Container } from "./styles";
 import { TourCard } from "../tour-card";
-import db from "../../db.json";
 import { useEffect, useState } from "react";
 import axios from "axios";
 
